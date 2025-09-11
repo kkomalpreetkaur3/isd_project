@@ -7,26 +7,26 @@ __version__ = "1.0.0"
 
 class Client:
     """Represents a banking client."""
-
-def __init__(self, client_number: int, first_name: str, last_name: str, email_address: str):
     
+from email_validator import validate_email, EmailNotValidError
+    
+def __init__(self, client_number: int, first_name: str, last_name: str, email_address: str):
+        
     if isinstance(client_number, int):
-            self.__client_number = client_number
+        self.__client_number = client_number
     else:
         raise ValueError("Client number must be an integer.")
-    
-    
+
     if len(first_name.strip()) > 0:
-            self.__first_name = first_name
+        self.__first_name = first_name
     else:
         raise ValueError("First name cannot be blank.")
-    
+
     if len(last_name.strip()) > 0:
-            self.__last_name = last_name
+        self.__last_name = last_name
     else:
         raise ValueError("Last name cannot be blank.")
-    
-    
+
     try:
         validate_email(email_address)
         self.__email_address = email_address
