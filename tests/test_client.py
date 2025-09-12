@@ -40,6 +40,27 @@ class TestClient(unittest.TestCase):
         client = Client(2003, "Komal", "Aulakh", "not-an-email")
         self.assertEqual("email@pixell-river.com", client._Client__email_address)
 
-    
+    def test_client_number_property(self):
+        client = Client(2025, "Komal", "Aulakh", "komalaulakh@gmail.com")
+        self.assertEqual(2025, client.client_number)
+
+    def test_first_name_property(self):
+        client = Client(2025, "Komal", "Aulakh", "komalaulakh@gmail.com")
+        self.assertEqual("Komal", client.first_name)
+
+    def test_last_name_property(self):
+        client = Client(2025, "Komal", "Aulakh", "komalaulakh@gmail.com")
+        self.assertEqual("Aulakh", client.last_name)
+
+    def test_email_address_property(self):
+        client = Client(2025, "Komal", "Aulakh", "komalaulakh@gmail.com")
+        self.assertEqual("komalaulakh@gmail.com", client.email_address)
+
+    def test_str_method(self):
+        client = Client(2025, "Komal", "Aulakh", "komalaulakh@gmail.com")
+        expected = ("Client Number: 2025\nFirst Name: Komal\nLast Name: Aulakh\n"
+                    "Email Address: komalaulakh@gmail.com")
+        self.assertEqual(expected, str(client))
+
 if __name__ == "__main__":
     unittest.main()
