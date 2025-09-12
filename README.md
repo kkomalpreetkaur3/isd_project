@@ -17,4 +17,13 @@ The main tasks included in this assignment are:
 - Installing email-validator
 
 ## Encapsulation
-[use this section to explain how Encapsulation was achieved in the BankAccount class.]
+
+### BankAccount Class
+
+- Private attributes: '__account_number', '__client_number', '__balance'
+- Controlled access: @property decorator
+
+### Client Class
+
+- Private attributes: '__client_number', '__first_name', '__last_name', __email_address'
+Controlled access: @property decorator
