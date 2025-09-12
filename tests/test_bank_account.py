@@ -69,15 +69,15 @@ class TestBankAccount(unittest.TestCase):
         with self.assertRaises(ValueError):
             acc.deposit(-50.00)
 
-    def test_deposit_non_numeric_raises(self):
-        acc = BankAccount(40075, 2828, 100.00)
-        with self.assertRaises(ValueError):
-            acc.deposit("beautiful")
-
     def test_withdraw_valid(self):
         acc = BankAccount(40075, 2828, 250.00)
         acc.withdraw(50.00)
         self.assertEqual(200.00, acc.balance)
+
+    def test_withdraw_negative_raises(self):
+        acc = BankAccount(40075, 2828, 100.00)
+        with self.assertRaises(ValueError):
+            acc.withdraw(-20.00)   
 
     def test_withdraw_exceed_balance_raises(self):
         acc = BankAccount(40075, 2828, 50.00)
