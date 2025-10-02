@@ -27,3 +27,5 @@ The main tasks included in this assignment are:
 
 - Private attributes: '__client_number', '__first_name', '__last_name', __email_address'
 Controlled access: @property decorator
+
+Assignment 2: Added ChequingAccount, InvestmentAccount, SavingAccount classes. Created new test files and updated the project with a new client program.
