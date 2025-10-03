@@ -7,7 +7,7 @@ __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 
 import unittest
-from chequing_account.chequing_account import ChequingAccount
+from bank_account.chequing_account import ChequingAccount
 
 class TestChequingAccount(unittest.TestCase):
     """Test cases for ChequingAccount."""
@@ -33,7 +33,7 @@ class TestChequingAccount(unittest.TestCase):
         expected = (
             "Account Number: 40078\n"
             "Client Number: 2828\n"
-            "Minimum Balance: !00.00"
+            "Minimum Balance: $100.00"
         )
         self.assertEqual(str(account), expected)
 

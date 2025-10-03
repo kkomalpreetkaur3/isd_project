@@ -90,11 +90,11 @@ class BankAccount(ABC):
         """Return a string containing account information."""
         pass
 
-    def __str__(self) -> str:
+    def __str__(self):
         return(
-            f"Account Number: {self.__account_number}"
-            f"\nClient Number: {self.__client_number}"
-            f"\nBalance: ${self.__balance:,.2f}"
+            f"Account Number: {self.__account_number}\n"
+            f"Client Number: {self.__client_number}\n"
+            f"Balance: ${self.__balance:,.2f}"
         )
     
 

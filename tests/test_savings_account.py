@@ -8,7 +8,7 @@ __version__ = "1.0.0"
 
 import unittest
 from datetime import date
-from savings_account.savings_account import SavingsAccount
+from bank_account.savings_account import SavingsAccount
 
 class TestSavingsAccount(unittest.TestCase):
     """Test cases for SavingsAccount."""
@@ -31,7 +31,9 @@ class TestSavingsAccount(unittest.TestCase):
 
     def test_str_method(self):
         """__str__ includes creation date and minimum balance."""
+        today = date.today()
         account = SavingsAccount(30078, 100.00, date.today(), 50.00)
+        
         expected = (
             f"Account Number: 30078\n"
             f"Client Number: 0\n"

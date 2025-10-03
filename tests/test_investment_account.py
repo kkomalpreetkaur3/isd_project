@@ -7,7 +7,7 @@ __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 
 import unittest
-from investment_account.investment_account import InvestmentAccount
+from bank_account.investment_account import InvestmentAccount
 
 class TestInvestmentAccount(unittest.TestCase):
     """Test cases for InvestmentAccount."""
