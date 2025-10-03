@@ -33,3 +33,6 @@ class TestInvestmentAccount(unittest.TestCase):
             "Interest Rate: 5.00%"
         )
         self.assertEqual(str(account), expected)
+
+if __name__ == "__main__":
+    unittest.main()

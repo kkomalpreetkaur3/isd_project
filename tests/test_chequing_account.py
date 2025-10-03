@@ -36,3 +36,6 @@ class TestChequingAccount(unittest.TestCase):
             "Minimum Balance: !00.00"
         )
         self.assertEqual(str(account), expected)
+
+if __name__ == "__main__":
+    unittest.main()
