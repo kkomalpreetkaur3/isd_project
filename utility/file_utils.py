@@ -15,5 +15,5 @@ def simulate_send_email(email_address, subject, message):
         filename = "observer_emails.txt"
         path = os.path.join(directory, filename)
         os.makedirs(directory, exist_ok=True)
-        with open(path, "a") as file:
+        with open(path, "a", encoding="utf-8") as file:
             file.write(f"---\nTo: {email_address}\nSubject: {subject}\nMessage: {message}\n---\n")
