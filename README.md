@@ -4,7 +4,7 @@ This project will be developed over the course of several assignments.  Each ass
 ## Author
 Komalpreet Kaur
 
-## Assignment
+## Assignments
 ### Assignment 1: Project Setup
 The main tasks included in this assignment are:
 - Downloading and managing project file(isd_project)
@@ -38,3 +38,9 @@ For example:
 - 'ChequingAccount' implements 'debit()' to enforce a minimum balance and calculates service charges differently from other accounts.  
 - 'SavingsAccount' implements 'debit()' with its own minimum balance rules and has its own 'get_service_charges()' logic.  
 - 'InvestmentAccount' implements 'apply_interest()' to add interest to the balance, which is not applicable to chequing or savings accounts.  
+
+### Assignment 3:
+This assignment demonstrates the use of two Behavioral Design Patterns:  
+- Strategy Pattern – used to make service charge calculations flexible and scalable.  
+- Observer Pattern – used to notify clients of unusual account activity.
+
