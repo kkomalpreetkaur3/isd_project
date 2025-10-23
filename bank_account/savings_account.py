@@ -1,47 +1,50 @@
 """
 Description: Represents a savings account with minimum balance and service charges.
+Uses the MinimumBalanceStrategy for service charge calculation.
 """
 
 __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 
 from datetime import date
-from bank_account.bank_account import BankAccount
+from bank_account import BankAccount
+from patterns.strategy.minimum_balance_strategy import MinimumBalanceStrategy
 
 class SavingsAccount(BankAccount):
-    """Represents a savings account with minimum balance and service charges."""
+    """
+    Represents a savings account with minimum balance and service charges.
+    Service charge is delegated to MinimumBalanceStrategy.
+    """
 
-    BASE_SERVICE_CHARGE = 0.50
-
-    def __init__(self, account_number,  balance, creation_date: date, minimum_balance: float):
-        super().__init__(account_number, 0, balance)  
+    def __init__(self, account_number: int, client_number: int,  balance: float, creation_date: date, minimum_balance: float):
+        super().__init__(account_number, client_number, balance)  
         self.creation_date = creation_date
-        self.__minimum_balance = minimum_balance
+        self.__minimum_balance = float(minimum_balance)
+        self.__service_strategy = MinimumBalanceStrategy(minimum_balance=self.__minimum_balance, service_charge_premium=0.50)
 
     @property
-    def minimum_balance(self):
+    def minimum_balance(self) -> float:
         return self.__minimum_balance
     
-    def get_service_charges(self):
-        """Return service charge based on balance relative to minimum."""
-        if self.balance < self.__minimum_balance:
-            return self.BASE_SERVICE_CHARGE * 2
-        return self.BASE_SERVICE_CHARGE
+    def get_service_charges(self) -> float:
+        """Delegate service charge calculation to strategy."""
+        return self.__service_strategy.calculate_service_charges(self)
     
     
     def apply_interest(self):
         """Savings account has no interest by default (tests expect this stub)."""
         return 0.0
 
-    def debit(self, amount):
+    def debit(self, amount: float):
         """Withdraw if possible, ensuring minimum balance is not violated."""
         if amount <= 0:
             raise ValueError("Debit amount must be positive")
         if amount > self.balance:
             raise ValueError("Insufficient funds")
         self.update_balance(-amount)
+        self._post_transaction_checks(amount)
 
-    def account_info(self):
+    def account_info(self) -> str:
         """Return account info as a string."""
         return (
             f"Account Number: {self.account_number}\n"
