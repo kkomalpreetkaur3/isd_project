@@ -44,3 +44,39 @@ This assignment demonstrates the use of two Behavioral Design Patterns:
 - Strategy Pattern – used to make service charge calculations flexible and scalable.  
 - Observer Pattern – used to notify clients of unusual account activity.
 
+## Strategy Pattern
+The Strategy Pattern moves service charge algorithms into separate classes so account types can delegate calculation work. This reduces code duplication and allows adding new service-charge behaviours without changing existing account classes.
+
+- 'patterns/strategy/service_charge_strategy.py'  
+  Abstract base class with 'BASE_SERVICE_CHARGE' constant and 'calculate_service_charges()' abstract method.
+
+- 'patterns/strategy/overdraft_strategy.py'  
+  Concrete strategy used by 'ChequingAccount'. Applies an overdraft penalty plus the base service charge when the balance is negative.
+
+- 'patterns/strategy/minimum_balance_strategy.py'  
+  Concrete strategy used by 'SavingsAccount'. Applies a premium when the balance is below the required minimum.
+
+- 'patterns/strategy/management_fee_strategy.py' 
+  Concrete strategy used by 'InvestmentAccount'. Applies a small proportional management fee plus the base service charge. Includes logic to reference accounts older than 10 years (TEN_YEARS_AGO constant).
+
+Each account class ('ChequingAccount', 'SavingsAccount', 'InvestmentAccount') keeps a private instance of its service charge strategy and calls 'get_service_charges()' which delegates to the strategy object.
+
+---
+
+## Observer Pattern
+The Observer Pattern decouples account logic from notification delivery.
+
+- 'patterns/observer/subject.py'  
+  Implements 'attach()', 'detach()', and 'notify()' for managing observers.
+
+- 'patterns/observer/observer.py'  
+  Defines the 'Observer' abstract interface (with 'update()' method).
+
+- 'client.py' 
+  Implements 'Client' as a concrete observer. 'Client.update()' uses 'utility/file_utils.simulate_send_email()' to write a simulated email to 'output/observer_emails.txt'.
+
+- 'bank_account.py' 
+  'BankAccount' now inherits from 'Subject' first, then 'ABC'. It defines constants:
+  - `LOW_BALANCE_LEVEL' — triggers a low balance notification when balance falls below this level.
+  - 'LARGE_TRANSACTION_THRESHOLD' — triggers a large transaction notification when the absolute transaction amount exceeds this threshold.
+
