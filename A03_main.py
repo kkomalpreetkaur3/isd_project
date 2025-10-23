@@ -10,7 +10,7 @@ __credits__ = ""
 #     Import date
 #     Import Client
 from datetime import date
-from client import Client
+from client.client import Client
 from bank_account.chequing_account import ChequingAccount
 from bank_account.savings_account import SavingsAccount
 from bank_account.investment_account import InvestmentAccount

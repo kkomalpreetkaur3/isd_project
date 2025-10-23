@@ -46,6 +46,7 @@ print("===================================================")
 # 5. Create an instance of a SavingsAccount with values of your 
 savings_account_example = SavingsAccount(
     account_number=20001, 
+    client_number=1,
     balance=500.00, 
     creation_date=date.today(), 
     minimum_balance=200.00
@@ -79,8 +80,9 @@ print("===================================================")
 investment_account_recent = InvestmentAccount(
     account_number=30001, 
     client_number=3, 
-    balance=10000.00, 
-    creation_date=date(2020, 5, 10)
+    balance=10000.00,
+    interest_rate=0.03, 
+    opened_date=date(2020, 5, 10)
 )
 # choice including a date created within the last 10 years.
 
@@ -98,7 +100,8 @@ investment_account_old = InvestmentAccount(
     account_number=30002, 
     client_number=4, 
     balance=20000.00, 
-    creation_date=date(2000, 8, 15)
+    interest_rate=0.03,
+    opened_date=date(2000, 8, 15)
 )
 # choice including a date created prior to 10 years ago.
 
