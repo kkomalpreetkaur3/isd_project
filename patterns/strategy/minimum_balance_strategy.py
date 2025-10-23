@@ -2,9 +2,10 @@ from .service_charge_strategy import ServiceChargeStrategy
 
 class MinimumBalanceStrategy(ServiceChargeStrategy):
     """
-    Service charge for accounts that require a minimum balance (e.g. Savings).
+    Minimum balance strategy used by SavingAccount.
+    If balance falls below minimum_balance, charge base and premium.
     """
-    def __init__(self, minimum_balance: float = 1000.0, service_charge_premium: float = 7.50):
+    def __init__(self, minimum_balance: float = 1000.0, service_charge_premium: float = 0.50):
         self._minimum_balance = float(minimum_balance)
         self._service_charge_premium = float(service_charge_premium)
 

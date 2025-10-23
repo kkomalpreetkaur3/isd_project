@@ -8,7 +8,7 @@ class ServiceChargeStrategy(ABC):
     Concrete strategies implement calculate_service_charges(account) and return
     a float representing the charge amount (>= 0).
     """
-    BASE_SERVICE_CHARGE = 2.50
+    BASE_SERVICE_CHARGE = 0.50
 
     @abstractmethod
     def calculate_service_charges(self, account) -> float:
