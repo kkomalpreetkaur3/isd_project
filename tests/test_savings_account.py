@@ -15,24 +15,24 @@ class TestSavingsAccount(unittest.TestCase):
 
     def test_init_attributes(self):
         """Attributes are correctly set."""
-        account = SavingsAccount(30075, 500.00, date.today(), 50.00)
+        account = SavingsAccount(30075, 0, 500.00, date.today(), 0.05, 50.00)
         self.assertEqual(account.balance, 500.0)
         self.assertEqual(account.minimum_balance, 50.0)
 
     def test_service_charges_above_minimum(self):
         """Balance above minimum returns base charge."""
-        account = SavingsAccount(30076, 100.00, date.today(), 50.00)
+        account = SavingsAccount(30076, 0, 100.00, date.today(), 0.05, 50.00)
         self.assertEqual(account.get_service_charges(), 0.50)
 
     def test_service_charges_below_minimum(self):
         """Balance below minimum returns double charge."""
-        account = SavingsAccount(30077, 49.00, date.today(), 50.00)
+        account = SavingsAccount(30077, 0, 49.00, date.today(), 0.05, 50.00)
         self.assertEqual(account.get_service_charges(), 1.0)
 
     def test_str_method(self):
         """__str__ includes creation date and minimum balance."""
         today = date.today()
-        account = SavingsAccount(30078, 100.00, date.today(), 50.00)
+        account = SavingsAccount(30078, 0, 100.00, date.today(), 0.05, 50.00)
         
         expected = (
             f"Account Number: 30078\n"

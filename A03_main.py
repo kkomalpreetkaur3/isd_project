@@ -34,6 +34,7 @@ savings_account_one = SavingsAccount(
     client_number=client_one.client_number,
     balance=1500.0,
     creation_date=date.today(),
+    interest_rate=0.02, 
     minimum_balance=500.0
 )
 
@@ -55,6 +56,7 @@ savings_account_two = SavingsAccount(
     client_number=client_two.client_number,
     balance=200.0,
     creation_date=date.today(),
+    interest_rate=0.03,
     minimum_balance=300.0
 )
 savings_account_two.attach(client_two)

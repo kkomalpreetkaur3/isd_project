@@ -17,8 +17,9 @@ class SavingsAccount(BankAccount):
     Service charge is delegated to MinimumBalanceStrategy.
     """
 
-    def __init__(self, account_number: int, client_number: int, balance: float, creation_date: date, minimum_balance: float):
-        """Initialize SavingsAccount.
+    def __init__(self, account_number: int, client_number: int, balance: float, creation_date: date, interest_rate: float, minimum_balance: float):
+        """
+        Initialize SavingsAccount.
 
         Args:
             account_number (int): Unique account number.

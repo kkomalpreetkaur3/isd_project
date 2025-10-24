@@ -2,33 +2,38 @@ from .service_charge_strategy import ServiceChargeStrategy
 
 class OverdraftStrategy(ServiceChargeStrategy):
     """
-    Service charge strategy for chequing/overdraft behaviour.
+    Service charge strategy for chequing accounts with overdraft behaviour.
     """
 
-    def __init__(self, overdraft_penalty: float = 0.50):
+    def __init__(self, minimum_balance, base_service_charge, overdraft_limit):
         """
         Initialize the overdraft strategy.
 
         Args:
-            overdraft_penalty (float): Penalty applied when balance is negative.
+            minimum_balance (float): Minimum balance required before extra charge applies.
+            base_service_charge (float): Standard base charge.
+            overdraft_limit (float): Maximum negative balance allowed (overdraft limit).
         """
-        self._overdraft_penalty = float(overdraft_penalty)
+        self.minimum_balance = minimum_balance
+        self.base_service_charge = base_service_charge
+        self.overdraft_limit = overdraft_limit
 
-    def calculate_service_charges(self, account) -> float:
+    def calculate_service_charges(self, balance):
         """
-        Calculate service charges for accounts with overdraft rules.
+        Calculate service charges based on the account balance.
 
-        If the account balance is negative, return BASE_SERVICE_CHARGE + penalty.
-        Otherwise, return 0.0.
+        - If the balance is below the overdraft limit, apply triple charge.
+        - If the balance is below minimum but above overdraft, apply double charge.
+        - Otherwise, apply base charge.
 
         Args:
-            account: A BankAccount instance.
+            balance (float): Current account balance.
 
         Returns:
-            float: The service charge amount.
+            float: Calculated service charge.
         """
-        balance = float(account.balance)
-        if balance >= 0:
-            return 0.0
-        return round(self.BASE_SERVICE_CHARGE + self._overdraft_penalty, 2)
-        
+        if balance < self.overdraft_limit:
+            return self.base_service_charge * 3
+        elif balance < self.minimum_balance:
+            return self.base_service_charge * 2
+        return self.base_service_charge

@@ -1,4 +1,3 @@
-# chequing_account.py
 """
 Description:
 Represents a chequing account with minimum balance and service charges.
@@ -17,7 +16,7 @@ class ChequingAccount(BankAccount):
     This class delegates service charge calculation to OverdraftStrategy.
     """
 
-    def __init__(self, account_number: int, client_number: int, balance: float, minimum_balance: float = 0.0, overdraft_limit=None):
+    def __init__(self, account_number: int, client_number: int, balance: float, minimum_balance: float = 0.0, overdraft_limit: float = 0.0):
         """
         Initialize ChequingAccount.
 
@@ -26,17 +25,39 @@ class ChequingAccount(BankAccount):
             client_number (int): Owner client number.
             balance (float): Initial balance.
             minimum_balance (float): Minimum required balance.
+            overdraft_limit (float): Allowed overdraft (negative balance).
         """
         super().__init__(account_number, client_number, balance)
-        self.minimum_balance = float(minimum_balance)
-        self.__service_strategy = OverdraftStrategy(overdraft_penalty=0.50)
-        self.overdraft_limit = overdraft_limit
+        self._minimum_balance = float(minimum_balance)
+        self._overdraft_limit = float(overdraft_limit)
+
+        self._service_charge_strategy = OverdraftStrategy(
+            minimum_balance=self._minimum_balance,
+            base_service_charge=0.50,
+            overdraft_limit=self._overdraft_limit
+        )
+
+    @property
+    def minimum_balance(self):
+        """Return the minimum required balance."""
+        return self._minimum_balance
+    
+    @property
+    def overdraft_limit(self):
+        """Return the allowed overdraft limit."""
+        return self._overdraft_limit
 
     def account_info(self) -> str:
         """
         Return account information string.
         """
-        return f"Account Number: {self.account_number}\nClient Number: {self.client_number}\nBalance: ${self.balance:.2f}"
+        return (
+            f"Account Number: {self.account_number}\n"
+            f"Client Number: {self.client_number}\n"
+            f"Balance: ${self.balance:.2f}\n"
+            f"Minimum Balance: ${self._minimum_balance:.2f}\n"
+            f"Overdraft Limit: ${self._overdraft_limit:.2f}"
+        )
 
     def apply_interest(self):
         """
@@ -83,13 +104,12 @@ class ChequingAccount(BankAccount):
         Returns:
             float: Calculated service charge amount.
         """
-        return self.__service_strategy.calculate_service_charges(self)
+        return self._service_charge_strategy.calculate_service_charges(self.balance)
 
     def __str__(self) -> str:
         """Return a formatted string for the chequing account."""
         return (
             f"Account Number: {self.account_number}\n"
             f"Client Number: {self.client_number}\n"
-            f"Balance: ${self.balance:.2f}\n"
-            f"Minimum Balance: ${self.minimum_balance:.2f}"
-        )
+            f"Minimum Balance: ${self._minimum_balance:.2f}\n"
+        ).strip()

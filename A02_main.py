@@ -50,6 +50,7 @@ savings_account_example = SavingsAccount(
     client_number=1,
     balance=500.00, 
     creation_date=date.today(), 
+    interest_rate=0.02,
     minimum_balance=200.00
 )
 # choice including a balance which is above the minimum balance.
