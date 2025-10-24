@@ -6,7 +6,7 @@ Uses ManagementFeeStrategy for service charge calculation.
 __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 
-from bank_account import BankAccount
+from bank_account.bank_account import BankAccount
 from patterns.strategy.management_fee_strategy import ManagementFeeStrategy
 from datetime import date
 
@@ -14,6 +14,16 @@ class InvestmentAccount(BankAccount):
     """Represents an investment account with interest."""
 
     def __init__(self, account_number: int, client_number: int, balance: float, interest_rate: float = 0.0, opened_date: date = None):
+        """
+        Initialize InvestmentAccount.
+
+        Args:
+            account_number (int): Unique account number.
+            client_number (int): Owner client number.
+            balance (float): Initial balance.
+            interest_rate (float): Annual interest rate as decimal (e.g., 0.02).
+            opened_date (date): Date when account was opened (optional).
+        """
         super().__init__(account_number, client_number, balance)
         try:
             self.__interest_rate = float(interest_rate)
@@ -24,15 +34,24 @@ class InvestmentAccount(BankAccount):
 
     @property
     def interest_rate(self) -> float:
+        """Return the interest rate for this investment account."""
         return self.__interest_rate
     
     def apply_interest(self):
-        """Apply interest to balance."""
+        """Apply interest to the account balance using the configured interest rate."""
         interest_amount = self.balance * self.__interest_rate
         self.update_balance(interest_amount)
 
     def debit(self, amount: float):
-        """Withdraw a positive amount if balance allows."""
+        """
+        Withdraw an amount if sufficient funds exist.
+
+        Args:
+            amount (float): Amount to withdraw.
+
+        Raises:
+            ValueError: If invalid amount or insufficient funds.
+        """
         if amount <= 0:
             raise ValueError("Debit amount must be positive")
         if amount > self.balance:
@@ -56,6 +75,7 @@ class InvestmentAccount(BankAccount):
         return self.__service_strategy.calculate_service_charges(self)
     
     def __str__(self) -> str:
+        """Return a formatted string for the investment account."""
         return (
             f"Account Number: {self.account_number}\n"
             f"Client Number: {self.client_number}\n"

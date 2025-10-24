@@ -11,23 +11,28 @@ from patterns.observer.subject import Subject
 class BankAccount(Subject, ABC):
     """
     Generic bank account class. Inherits Subject first to support observer behaviour.
+
+    Attributes:
+        LOW_BALANCE_LEVEL (float): Threshold below which a low balance notification is sent.
+        LARGE_TRANSACTION_THRESHOLD (float): Absolute transaction amount that triggers a large-transaction notification.
     """
 
     LOW_BALANCE_LEVEL = 25.00
     LARGE_TRANSACTION_THRESHOLD = 10000.00
 
     def __init__(self, account_number: int, client_number: int, balance: float):
-        super().__init__()
         """
-        Initialises a bank account.
+        Initialize a BankAccount instance.
+
         Args:
-            account_number (int): Unique account number
-            client_number (int): Client identifier
-            balance (float): Initial account balance
+            account_number (int): Unique account number.
+            client_number (int): Client identifier.
+            balance (float): Initial balance.
 
         Raises:
             ValueError: If account_number or client_number is not an integer.
         """
+        super().__init__()
         if isinstance(account_number, int):
             self.__account_number = account_number
         else:
@@ -45,21 +50,27 @@ class BankAccount(Subject, ABC):
 
     @property
     def account_number(self) -> int:
+        """Return the account number."""
         return self.__account_number
 
     @property
     def client_number(self) -> int:
+        """Return the client number associated with this account."""
         return self.__client_number
     
     @property
     def balance(self) -> float:
+        """Return the current account balance."""
         return self.__balance
     
     def _post_transaction_checks(self, transaction_amount: float):
         """
-        After a deposit or withdrawal, notify attached observers if:
-        balance has dropped below LOW_BALANCE_LEVEL
-        absolute value of transaction_amount exceeds LARGE_TRANSACTION_THRESHOLD
+        Check for conditions that should trigger observer notifications.
+
+        Sends notifications for low balance and for large absolute transactions.
+
+        Args:
+            transaction_amount (float): The amount of the transaction (positive for deposit, positive for withdraw amount).
         """
         if self.__balance < self.LOW_BALANCE_LEVEL:
             message = f"Low balance warning ${self.__balance:.2f}: on account {self.__account_number}."
@@ -70,9 +81,12 @@ class BankAccount(Subject, ABC):
             self.notify(message)
     
     def update_balance(self, amount: float):
-        """
-        Deposit a positive amount into the account and run notification checks.
-        Raises ValueError on invalid input.
+        """Update the account balance by the specified amount.
+
+        This method is robust to non-numeric input and will ignore invalid updates.
+
+        Args:
+            amount (float): Amount to add (deposit) or subtract (withdraw).
         """
         try:
             amount_converted = float(amount)
@@ -82,8 +96,13 @@ class BankAccount(Subject, ABC):
 
     def deposit(self, amount: float):
         """
-        Deposit a positive amount from the account and runs notification checks.
-        Raises ValueError on invalid input.
+        Deposit a positive amount to the account and run notification checks.
+
+        Args:
+            amount (float): Amount to deposit.
+
+        Raises:
+            ValueError: If amount is not numeric or not positive.
         """
         if not isinstance(amount, (int, float)):
             raise ValueError(f"Deposit amount: {amount} must be numeric.")
@@ -95,8 +114,13 @@ class BankAccount(Subject, ABC):
 
     def withdraw(self, amount: float):
         """
-        Withdraw a positive amount from the account, with basic balance check.
-        Raises ValueError on invalid input or insufficient funds.
+        Withdraw a positive amount from the account and run notification checks.
+
+        Args:
+            amount (float): Amount to withdraw.
+
+        Raises:
+            ValueError: If amount is not numeric, not positive, or exceeds balance.
         """
         if not isinstance(amount, (int, float)):
             raise ValueError(f"Withdraw amount: {amount} must be numeric.")
@@ -110,17 +134,19 @@ class BankAccount(Subject, ABC):
 
     @abstractmethod
     def debit(self, amount: float) -> bool:
-        """Debit a specified amount from the account."""
+        """Abstract method to debit the account.
+
+        Args:
+            amount (float): Amount to debit.
+
+        Returns:
+            bool: True if the debit was successful, otherwise False.
+        """
         pass
 
     @abstractmethod
     def apply_interest(self):
-        """Apply interest to the account balance."""
-        pass
-
-    @abstractmethod
-    def apply_interest(self):
-        """Apply interest to the account balance(abstract)."""
+        """Abstract method to apply interest to the account balance."""
         pass
 
     @abstractmethod
@@ -129,6 +155,7 @@ class BankAccount(Subject, ABC):
         pass
 
     def __str__(self):
+        """Return a string representation of the account."""
         return(
             f"Account Number: {self.__account_number}\n"
             f"Client Number: {self.__client_number}\n"

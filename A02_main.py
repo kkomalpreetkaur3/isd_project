@@ -18,7 +18,8 @@ from bank_account.investment_account import InvestmentAccount
 chequing_account_example = ChequingAccount(
     account_number=10001, 
     client_number=1, 
-    balance=-600.00, 
+    balance=-600.00,
+    minimum_balance=0.0,
     overdraft_limit=-500.00
 )
 
@@ -81,7 +82,6 @@ investment_account_recent = InvestmentAccount(
     account_number=30001, 
     client_number=3, 
     balance=10000.00,
-    interest_rate=0.03, 
     opened_date=date(2020, 5, 10)
 )
 # choice including a date created within the last 10 years.
@@ -100,7 +100,7 @@ investment_account_old = InvestmentAccount(
     account_number=30002, 
     client_number=4, 
     balance=20000.00, 
-    interest_rate=0.03,
+    interest_rate=3.0,
     opened_date=date(2000, 8, 15)
 )
 # choice including a date created prior to 10 years ago.

@@ -4,9 +4,8 @@ class ServiceChargeStrategy(ABC):
     """
     Abstract base for all service charge strategies.
 
-    BASE_SERVICE_CHARGE constant moved here (previously in BankAccount).
-    Concrete strategies implement calculate_service_charges(account) and return
-    a float representing the charge amount (>= 0).
+    Attributes:
+        BASE_SERVICE_CHARGE (float): A base service charge shared by strategies.
     """
     BASE_SERVICE_CHARGE = 0.50
 

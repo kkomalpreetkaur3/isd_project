@@ -26,7 +26,7 @@ class TestClient(unittest.TestCase):
 
     def test_blank_first_name_raises(self):
         with self.assertRaises(ValueError):
-            Client(1001, "   ", "Aulakh", "valid@email.com")
+            Client(1001, "   ", "Aulakh", "komalpreet.kaur@gmail.com")
 
     def test_blank_last_name_raises(self):
         with self.assertRaises(ValueError):
@@ -36,9 +36,10 @@ class TestClient(unittest.TestCase):
         with self.assertRaises(ValueError):
             Client("wrong", "Komal", "Aulakh", "valid@gmail.com")
 
-    def test_invalid_email_defaults(self):
-        client = Client(2003, "Komal", "Aulakh", "not-an-email")
-        self.assertEqual("email@pixell-river.com", client._Client__email_address)
+    def test_invalid_email_raises(self):
+        with self.assertRaises(ValueError):
+            Client(2003, "Komal", "Aulakh", "not-an-email")
+
 
     def test_client_number_property(self):
         client = Client(2025, "Komal", "Aulakh", "komalaulakh@gmail.com")

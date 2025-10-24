@@ -17,6 +17,17 @@ class Client(Observer):
     """
 
     def __init__(self, client_number: int, first_name: str, last_name: str, email_address: str):
+        """Initialize a Client with validation.
+
+        Args:
+            client_number (int): Unique integer client number.
+            first_name (str): Client's first name.
+            last_name (str): Client's last name.
+            email_address (str): Client's email address.
+
+        Raises:
+            ValueError: If client_number, first_name or last_name are invalid.
+        """
         if isinstance(client_number, int):
             self.__client_number = client_number
         else:
@@ -40,33 +51,39 @@ class Client(Observer):
 
     @property
     def client_number(self) -> int:
+        """Return the client number."""
         return self.__client_number
 
     @property
     def first_name(self) -> str:
+        """Return the first name."""
         return self.__first_name
 
     @property
     def last_name(self) -> str:
+        """Return the last name."""
         return self.__last_name
 
     @property
     def email_address(self) -> str:
+        """Return the email address."""
         return self.__email_address
     
     def update(self, message: str):
         """
-        Observer.update implementation.
-        Writes a simulated email using simulate_send_email().
-        
-        Subject format: ALERT: Unusual Activity: {current date/time}
-        Message format: Notification for {client number}: {first name} {last name}: {message}
+        Receive a notification and produce a simulated email.
+
+        The subject and message formats follow the assignment specification.
+
+        Args:
+            message (str): Message describing the event.
         """
         subject = f"ALERT: Unusual Activity: {datetime.now():%Y-%m-%d %H:%M:%S}"
         body = f"Notification for {self.client_number}: {self.first_name} {self.last_name}: {message}"
         simulate_send_email(self.email_address, subject, body)
 
     def __str__(self) -> str:
+        """Return a string representation of the client."""
         return (
             f"Client Number: {self.__client_number}\n"
             f"First Name: {self.__first_name}\n"
