@@ -80,3 +80,7 @@ The Observer Pattern decouples account logic from notification delivery.
   - `LOW_BALANCE_LEVEL' — triggers a low balance notification when balance falls below this level.
   - 'LARGE_TRANSACTION_THRESHOLD' — triggers a large transaction notification when the absolute transaction amount exceeds this threshold.
 
+
+### Assignment 4:
+GUI Client and Account Management  
+This assignment introduces the use of PySide6 to build graphical user interfaces for client lookup and account details. It expands on previous project structure by integrating new UI classes and connecting them to existing account data.
