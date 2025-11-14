@@ -1,3 +1,8 @@
+"""
+Description: This module handles loading client and bank account data from CSV files
+into Python objects (Client, ChequingAccount, SavingsAccount, InvestmentAccount),
+and updating account balances back to the accounts.csv file.
+"""
 __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 __credits__ = ""
@@ -50,11 +55,18 @@ accounts_csv_path = os.path.join(data_dir, 'accounts.csv')
 
 def load_data()->tuple[dict,dict]:
     """
-    Populates a client dictionary and an account dictionary with 
-    corresponding data from files within the data directory.
+    Loads client and bank account data from CSV files and returns two dictionaries.
+
     Returns:
-        tuple containing client dictionary and account dictionary.
+        tuple:
+            - client_listing (dict[int, Client]): Keys are client_number, values are Client objects.
+            - accounts (dict[int, BankAccount]): Keys are account_number, values are BankAccount subclass objects.
+
+    Notes:
+        - Invalid rows are logged in manage_data.log.
+        - Clients with missing names or accounts with invalid data are skipped.
     """
+
     client_listing = {}
     accounts = {}
 
@@ -158,10 +170,15 @@ def load_data()->tuple[dict,dict]:
     
 def update_data(updated_account: BankAccount) -> None:
     """
-    A function to update the accounts.csv file with balance 
-    data provided in the BankAccount argument.
+    Updates the balance of a given BankAccount in accounts.csv.
+
     Args:
-        updated_account (BankAccount): A bank account containing an updated balance.
+        updated_account (BankAccount): A BankAccount object containing the updated balance.
+
+    Notes:
+        - Reads the accounts.csv file, modifies the balance for the given account_number,
+          and writes the updated data back to the file.
+        - Other fields remain unchanged.
     """
     updated_rows = []
 

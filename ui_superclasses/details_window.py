@@ -1,4 +1,4 @@
-__author__ = "ACE Faculty"
+__author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 
 from PySide6.QtWidgets import QGridLayout, QLabel, QLineEdit, QPushButton, QDialog, QHBoxLayout

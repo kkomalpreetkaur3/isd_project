@@ -1,4 +1,9 @@
-__author__ = "ACE Faculty"
+"""
+Description: Provides the AccountDetailsWindow class for viewing account details,
+performing deposit/withdraw transactions, and emitting signals to update
+balances in the ClientLookupWindow.
+"""
+__author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 __credits__ = ""
 

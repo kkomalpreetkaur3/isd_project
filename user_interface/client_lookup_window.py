@@ -1,3 +1,8 @@
+"""
+Description: Provides the ClientLookupWindow class for searching clients and displaying
+their bank accounts. Handles user interactions and opens the
+AccountDetailsWindow for selected accounts.
+"""
 __author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 __credits__ = ""
