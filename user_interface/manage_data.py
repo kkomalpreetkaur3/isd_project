@@ -1,15 +1,20 @@
-__author__ = "ACE Faculty"
+__author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 __credits__ = ""
 
 import os
 import sys
-# THIS LINE IS NEEDED SO THAT THE GIVEN TESTING 
-# CODE CAN RUN FROM THIS DIRECTORY.
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 import csv
 from datetime import datetime
 import logging
+
+from bank_account.chequing_account import ChequingAccount
+from bank_account.savings_account import SavingsAccount
+from bank_account.investment_account import InvestmentAccount
+from client.client import Client
+from bank_account.bank_account import BankAccount
 
 # *******************************************************************************
 # GIVEN LOGGING AND FILE ACCESS CODE
@@ -43,11 +48,6 @@ accounts_csv_path = os.path.join(data_dir, 'accounts.csv')
 # END GIVEN LOGGING AND FILE ACCESS CODE
 # *******************************************************************************
 
-
-
-
-
-
 def load_data()->tuple[dict,dict]:
     """
     Populates a client dictionary and an account dictionary with 
@@ -61,16 +61,101 @@ def load_data()->tuple[dict,dict]:
     # READ CLIENT DATA 
     with open(clients_csv_path, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
-        
+
+        for row in reader:
+            try:
+                client_number = int(row["client_number"])
+                first_name = row["first_name"]
+                last_name = row["last_name"]
+                email = row["email_address"]
+
+                # Handle missing names (like client 1011)
+                if not first_name or not last_name:
+                    logging.error(f"Missing name in clients.csv row: {row}")
+                    continue
+
+                client_listing[client_number] = Client(
+                    client_number,
+                    first_name,
+                    last_name,
+                    email
+                )
+
+            except ValueError:
+                logging.error(f"Invalid client_number in row: {row}")
+                continue
 
     # READ ACCOUNT DATA
     with open(accounts_csv_path, newline='') as csvfile:
         reader = csv.DictReader(csvfile)  
 
-    # RETURN STATEMENT
+        for row in reader:
+            try:
+                account_number = int(row["account_number"])
+                client_number = int(row["client_number"])
+
+                # Skip rows where client does not exist
+                if client_number not in client_listing:
+                    logging.error(f"Account with client_number not found: {row}")
+                    continue
+
+                # Validate balance
+                try:
+                    balance = float(row["balance"])
+                except ValueError:
+                    logging.error(f"Invalid balance: {row}")
+                    continue
+
+                # Validate date
+                try:
+                    date_created = datetime.strptime(row["date_created"], "%Y-%m-%d")
+                except ValueError:
+                    logging.error(f"Invalid date format: {row}")
+                    continue
+
+                account_type = row["account_type"]
+
+                # Create account object
+                if account_type == "ChequingAccount":
+                    account = ChequingAccount(
+                        account_number,
+                        client_number,
+                        balance,
+                        date_created,
+                        float(row["overdraft_limit"]),
+                        float(row["overdraft_rate"])
+                    )
+
+                elif account_type == "SavingsAccount":
+                    account = SavingsAccount(
+                        account_number,
+                        client_number,
+                        balance,
+                        date_created,
+                        float(row["minimum_balance"])
+                    )
+
+                elif account_type == "InvestmentAccount":
+                    account = InvestmentAccount(
+                        account_number,
+                        client_number,
+                        balance,
+                        date_created,
+                        float(row["management_fee"])
+                    )
+                
+                else:
+                    logging.error(f"Invalid account type: {row}")
+                    continue
+
+                accounts[account_number] = account
+
+            except Exception as e:
+                logging.error(f"Error parsing account row {row}: {e}")
+                continue
+
+    return client_listing, accounts
     
-
-
 def update_data(updated_account: BankAccount) -> None:
     """
     A function to update the accounts.csv file with balance 
