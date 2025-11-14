@@ -95,6 +95,17 @@ class ClientLookupWindow(LookupWindow):
             if acc.client_number == client_number
         ]
 
+        # Populate the account table
+        self.account_table.setRowCount(len(client_accounts))
+
+        for row_index, account in enumerate(client_accounts):
+            self.account_table.setItem(row_index, 0,
+                                       QTableWidgetItem(str(account.account_number)))
+            self.account_table.setItem(row_index, 1,
+                                       QTableWidgetItem(str(account.balance)))
+            self.account_table.setItem(row_index, 2,
+                                       QTableWidgetItem(str(account.date_created.date())))
+
     # ============================================================
     # EVENT HANDLER: USER DOUBLE-CLICKS A ROW
     # ============================================================
