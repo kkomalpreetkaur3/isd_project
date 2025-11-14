@@ -1,4 +1,4 @@
-__author__ = "ACE Faculty"
+__author__ = "Komalpreet Kaur"
 __version__ = "1.0.0"
 __credits__ = ""
 
@@ -104,7 +104,9 @@ class ClientLookupWindow(LookupWindow):
             self.account_table.setItem(row_index, 1,
                                        QTableWidgetItem(str(account.balance)))
             self.account_table.setItem(row_index, 2,
-                                       QTableWidgetItem(str(account.date_created.date())))
+                                       QTableWidgetItem(str(account.date_created)))
+            self.account_table.setItem(row_index, 3,
+                                       QTableWidgetItem(account.__class__.__name__))
 
     # ============================================================
     # EVENT HANDLER: USER DOUBLE-CLICKS A ROW
@@ -155,8 +157,4 @@ class ClientLookupWindow(LookupWindow):
 
         # Refresh the table display
         self.on_lookup_client()
-
-
-
-    pass
         

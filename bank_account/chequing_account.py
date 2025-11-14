@@ -16,7 +16,7 @@ class ChequingAccount(BankAccount):
     This class delegates service charge calculation to OverdraftStrategy.
     """
 
-    def __init__(self, account_number: int, client_number: int, balance: float, minimum_balance: float = 0.0, overdraft_limit: float = 0.0):
+    def __init__(self, account_number: int, client_number: int, balance: float, date_created=None, minimum_balance: float = 0.0, overdraft_limit: float = 0.0):
         """
         Initialize ChequingAccount.
 
@@ -27,7 +27,7 @@ class ChequingAccount(BankAccount):
             minimum_balance (float): Minimum required balance.
             overdraft_limit (float): Allowed overdraft (negative balance).
         """
-        super().__init__(account_number, client_number, balance)
+        super().__init__(account_number, client_number, balance, date_created)
         self._minimum_balance = float(minimum_balance)
         self._overdraft_limit = float(overdraft_limit)
 

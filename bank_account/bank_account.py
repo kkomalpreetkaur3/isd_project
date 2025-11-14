@@ -20,7 +20,7 @@ class BankAccount(Subject, ABC):
     LOW_BALANCE_LEVEL = 25.00
     LARGE_TRANSACTION_THRESHOLD = 10000.00
 
-    def __init__(self, account_number: int, client_number: int, balance: float):
+    def __init__(self, account_number: int, client_number: int, balance: float, date_created=None):
         """
         Initialize a BankAccount instance.
 
@@ -47,6 +47,8 @@ class BankAccount(Subject, ABC):
             self.__balance = float(balance)
         except (ValueError, TypeError):
             self.__balance = 0.0
+
+        self.date_created = date_created
 
     @property
     def account_number(self) -> int:

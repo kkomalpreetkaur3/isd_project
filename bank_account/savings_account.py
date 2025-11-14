@@ -17,7 +17,7 @@ class SavingsAccount(BankAccount):
     Service charge is delegated to MinimumBalanceStrategy.
     """
 
-    def __init__(self, account_number: int, client_number: int, balance: float, creation_date: date, interest_rate: float, minimum_balance: float):
+    def __init__(self, account_number, client_number, balance, date_created, creation_date, minimum_balance):
         """
         Initialize SavingsAccount.
 
@@ -28,10 +28,12 @@ class SavingsAccount(BankAccount):
             creation_date (date): Account creation date.
             minimum_balance (float): Required minimum balance.
         """
-        super().__init__(account_number, client_number, balance)
+        super().__init__(account_number, client_number, balance, date_created)
         self.creation_date = creation_date
         self.__minimum_balance = float(minimum_balance)
         self.__service_strategy = MinimumBalanceStrategy(minimum_balance=self.__minimum_balance, service_charge_premium=0.50)
+
+        self.creation_date = date_created
 
     @property
     def minimum_balance(self) -> float:
