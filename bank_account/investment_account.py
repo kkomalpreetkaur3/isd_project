@@ -13,7 +13,7 @@ from datetime import date
 class InvestmentAccount(BankAccount):
     """Represents an investment account with interest."""
 
-    def __init__(self, account_number: int, client_number: int, balance: float, interest_rate: float = 0.0, opened_date: date = None):
+    def __init__(self, account_number, client_number, balance, date_created, management_fee):
         """
         Initialize InvestmentAccount.
 
@@ -24,14 +24,15 @@ class InvestmentAccount(BankAccount):
             interest_rate (float): Annual interest rate as decimal (e.g., 0.02).
             opened_date (date): Date when account was opened (optional).
         """
-        super().__init__(account_number, client_number, balance)
+        super().__init__(account_number, client_number, balance, date_created)
         try:
             self.__interest_rate = float(interest_rate)
         except (ValueError, TypeError):
             self.__interest_rate = 0.0
 
         self.__service_strategy = ManagementFeeStrategy(annual_fee_percent=0.001, opened_date=opened_date)
-
+        self.management_fee = management_fee
+        
     @property
     def interest_rate(self) -> float:
         """Return the interest rate for this investment account."""

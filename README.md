@@ -80,3 +80,20 @@ The Observer Pattern decouples account logic from notification delivery.
   - `LOW_BALANCE_LEVEL' — triggers a low balance notification when balance falls below this level.
   - 'LARGE_TRANSACTION_THRESHOLD' — triggers a large transaction notification when the absolute transaction amount exceeds this threshold.
 
+
+### Assignment 4:
+GUI Client and Account Management: 
+This assignment introduces the use of PySide6 to build graphical user interfaces for client lookup and account details. It expands on previous project structure by integrating new UI classes and connecting them to existing account data.
+
+## Event-Driven Programming Paradigm
+
+This application uses the Event-Driven Programming Paradigm as follows:
+
+- GUI components (widgets) emit signals when interacted with (e.g., buttons clicked, table cells selected, text changed).
+- Slots (methods) are connected to these signals to handle events dynamically.
+- Examples:
+  - `lookup_button.clicked` → `on_lookup_client()`
+  - `client_number_edit.textChanged` → `on_text_changed()`
+  - `account_table.cellClicked` → `on_select_account()`
+  - `deposit_button.clicked` / `withdraw_button.clicked` → `on_apply_transaction()`
+- The AccountDetailsWindow emits a custom `balance_updated` signal after transactions, which is received by the ClientLookupWindow to refresh account balances in real-time.
