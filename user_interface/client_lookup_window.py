@@ -58,6 +58,11 @@ class ClientLookupWindow(LookupWindow):
         self.client_info_label.setText("")
         self.account_table.setRowCount(0)
 
+        # Disable filter controls
+        self.filter_label.setEnabled(False)
+        self.filter_edit.setEnabled(False)
+        self.filter_button.setEnabled(False)
+
     # ============================================================
     # EVENT HANDLER: LOOKUP BUTTON PRESSED
     # ============================================================
@@ -107,6 +112,11 @@ class ClientLookupWindow(LookupWindow):
                                        QTableWidgetItem(str(account.date_created)))
             self.account_table.setItem(row_index, 3,
                                        QTableWidgetItem(account.__class__.__name__))
+            
+        # Enable filter controls
+        self.filter_label.setEnabled(True)
+        self.filter_edit.setEnabled(True)
+        self.filter_button.setEnabled(True)
 
     # ============================================================
     # EVENT HANDLER: USER DOUBLE-CLICKS A ROW
