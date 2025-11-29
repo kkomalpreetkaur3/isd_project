@@ -97,3 +97,8 @@ This application uses the Event-Driven Programming Paradigm as follows:
   - `account_table.cellClicked` → `on_select_account()`
   - `deposit_button.clicked` / `withdraw_button.clicked` → `on_apply_transaction()`
 - The AccountDetailsWindow emits a custom `balance_updated` signal after transactions, which is received by the ClientLookupWindow to refresh account balances in real-time.
+
+### Assignment 5:
+Installer and packaging
+
+This assignment prepare the project for distribution by creating an installer for the Python application. Tasks include adding the provided client files, creating an `installer` directory, generating a standalone executable using PyInstaller, and building an installer using Inno Setup. Documentation should be generated using Sphinx where applicable.
