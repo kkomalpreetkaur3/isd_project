@@ -5,7 +5,7 @@ import sys
 
 # Add project root directory to Python path
 # (so autodoc can find your modules)
-
+sys.path.insert(0, os.path.abspath('../..'))
 
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
