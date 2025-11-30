@@ -26,9 +26,11 @@ class ClientLookupWindow(LookupWindow):
         - Populating the account table
         - Opening the AccountDetailsWindow on selection
         - Receiving updated balances via signals
-        - Filtering logic
-        - Toggle filter state
-        - Reset to full list
+    Added Filtering for Assignment 5:
+        - Apply Filter
+        - Reset Filter
+        - Toggle UI state
+        - Exact-match filtering using setRowHidden()
     """
 
     def __init__(self):
