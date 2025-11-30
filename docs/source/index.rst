@@ -15,3 +15,18 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+.. automodule:: bank_account.bank_account
+    :members:
+    :undoc-members:
+
+.. automodule:: bank_account.chequing_account
+    :members:
+
+.. automodule:: bank_account.savings_account
+    :members:
+
+.. automodule:: bank_account.investment_account
+    :members:
+
+.. automodule:: client_lookup_window
+    :members:
