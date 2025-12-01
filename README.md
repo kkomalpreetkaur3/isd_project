@@ -102,3 +102,15 @@ This application uses the Event-Driven Programming Paradigm as follows:
 Installer and packaging
 
 This assignment prepare the project for distribution by creating an installer for the Python application. Tasks include adding the provided client files, creating an `installer` directory, generating a standalone executable using PyInstaller, and building an installer using Inno Setup. Documentation should be generated using Sphinx where applicable.
+
+## Filtering
+
+Filtering was implemented in `user_interface/client_lookup_window.py`:
+- `on_filter_clicked` applies or resets the filter based on the `filter_button` text.
+- `toggle_filter(filter_on: bool)` toggles widget enable/disable state and updates label text.
+- Filtering logic iterates the rows of `account_table` and uses `setRowHidden(i, True)` for rows that do not match the search text in the selected column.
+
+Usage:
+1. Enter a client number to populate the account table.
+2. Select a column in the `Filter` combobox and type search text.
+3. Click `Apply Filter` to view matching accounts; click `Reset` to restore the full listing.
