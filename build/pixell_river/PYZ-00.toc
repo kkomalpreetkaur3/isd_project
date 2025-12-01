@@ -1,0 +1,1535 @@
+('C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+ 'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\build\\pixell_river\\PYZ-00.pyz',
+ [('PySide6',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PySide6\\__init__.py',
+   'PYMODULE'),
+  ('PySide6.support',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PySide6\\support\\__init__.py',
+   'PYMODULE'),
+  ('PySide6.support.deprecated',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PySide6\\support\\deprecated.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('_colorize',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_colorize.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('_opcode_metadata',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_opcode_metadata.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils.qt',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\qt.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ast.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('bank_account',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\bank_account\\__init__.py',
+   'PYMODULE'),
+  ('bank_account.bank_account',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\bank_account\\bank_account.py',
+   'PYMODULE'),
+  ('bank_account.chequing_account',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\bank_account\\chequing_account.py',
+   'PYMODULE'),
+  ('bank_account.investment_account',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\bank_account\\investment_account.py',
+   'PYMODULE'),
+  ('bank_account.savings_account',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\bank_account\\savings_account.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('client',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\client\\__init__.py',
+   'PYMODULE'),
+  ('client.client',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\client\\client.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\dis.py',
+   'PYMODULE'),
+  ('dns',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\__init__.py',
+   'PYMODULE'),
+  ('dns._asyncbackend',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\_asyncbackend.py',
+   'PYMODULE'),
+  ('dns._asyncio_backend',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\_asyncio_backend.py',
+   'PYMODULE'),
+  ('dns._ddr',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\_ddr.py',
+   'PYMODULE'),
+  ('dns._features',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\_features.py',
+   'PYMODULE'),
+  ('dns._immutable_ctx',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\_immutable_ctx.py',
+   'PYMODULE'),
+  ('dns._no_ssl',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\_no_ssl.py',
+   'PYMODULE'),
+  ('dns._tls_util',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\_tls_util.py',
+   'PYMODULE'),
+  ('dns._trio_backend',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\_trio_backend.py',
+   'PYMODULE'),
+  ('dns.asyncbackend',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\asyncbackend.py',
+   'PYMODULE'),
+  ('dns.asyncquery',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\asyncquery.py',
+   'PYMODULE'),
+  ('dns.asyncresolver',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\asyncresolver.py',
+   'PYMODULE'),
+  ('dns.dnssectypes',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\dnssectypes.py',
+   'PYMODULE'),
+  ('dns.edns',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\edns.py',
+   'PYMODULE'),
+  ('dns.entropy',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\entropy.py',
+   'PYMODULE'),
+  ('dns.enum',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\enum.py',
+   'PYMODULE'),
+  ('dns.exception',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\exception.py',
+   'PYMODULE'),
+  ('dns.flags',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\flags.py',
+   'PYMODULE'),
+  ('dns.grange',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\grange.py',
+   'PYMODULE'),
+  ('dns.immutable',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\immutable.py',
+   'PYMODULE'),
+  ('dns.inet',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\inet.py',
+   'PYMODULE'),
+  ('dns.ipv4',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\ipv4.py',
+   'PYMODULE'),
+  ('dns.ipv6',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\ipv6.py',
+   'PYMODULE'),
+  ('dns.message',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\message.py',
+   'PYMODULE'),
+  ('dns.name',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\name.py',
+   'PYMODULE'),
+  ('dns.nameserver',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\nameserver.py',
+   'PYMODULE'),
+  ('dns.node',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\node.py',
+   'PYMODULE'),
+  ('dns.opcode',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\opcode.py',
+   'PYMODULE'),
+  ('dns.query',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\query.py',
+   'PYMODULE'),
+  ('dns.quic',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\quic\\__init__.py',
+   'PYMODULE'),
+  ('dns.quic._asyncio',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\quic\\_asyncio.py',
+   'PYMODULE'),
+  ('dns.quic._common',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\quic\\_common.py',
+   'PYMODULE'),
+  ('dns.quic._sync',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\quic\\_sync.py',
+   'PYMODULE'),
+  ('dns.quic._trio',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\quic\\_trio.py',
+   'PYMODULE'),
+  ('dns.rcode',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rcode.py',
+   'PYMODULE'),
+  ('dns.rdata',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdata.py',
+   'PYMODULE'),
+  ('dns.rdataclass',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdataclass.py',
+   'PYMODULE'),
+  ('dns.rdataset',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdataset.py',
+   'PYMODULE'),
+  ('dns.rdatatype',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdatatype.py',
+   'PYMODULE'),
+  ('dns.rdtypes',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AFSDB',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\AFSDB.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AMTRELAY',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\AMTRELAY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AVC',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\AVC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CAA',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CAA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CDNSKEY',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CDNSKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CDS',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CDS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CERT',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CERT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CNAME',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CNAME.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CSYNC',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CSYNC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DLV',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DLV.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DNAME',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DNAME.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DNSKEY',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DNSKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DS',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DSYNC',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DSYNC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.EUI48',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\EUI48.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.EUI64',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\EUI64.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.GPOS',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\GPOS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.HINFO',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\HINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.HIP',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\HIP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.ISDN',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\ISDN.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.L32',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\L32.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.L64',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\L64.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.LOC',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\LOC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.LP',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\LP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.MX',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\MX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NID',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NID.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NINFO',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NS',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NSEC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC3',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NSEC3.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC3PARAM',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NSEC3PARAM.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.OPENPGPKEY',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\OPENPGPKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.OPT',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\OPT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.PTR',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\PTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RESINFO',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RESINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RP',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RRSIG',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RRSIG.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RT',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SMIMEA',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SMIMEA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SOA',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SOA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SPF',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SPF.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SSHFP',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SSHFP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TKEY',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TLSA',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TLSA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TSIG',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TSIG.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TXT',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TXT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.URI',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\URI.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.WALLET',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\WALLET.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.X25',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\X25.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.ZONEMD',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\ANY\\ZONEMD.py',
+   'PYMODULE'),
+  ('dns.rdtypes.CH',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\CH\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.CH.A',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\CH\\A.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.A',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\A.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.AAAA',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\AAAA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.APL',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\APL.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.DHCID',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\DHCID.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.HTTPS',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\HTTPS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.IPSECKEY',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\IPSECKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.KX',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\KX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NAPTR',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\NAPTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NSAP',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\NSAP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NSAP_PTR',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\NSAP_PTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.PX',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\PX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.SRV',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\SRV.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.SVCB',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\SVCB.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.WKS',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\IN\\WKS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.dnskeybase',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\dnskeybase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.dsbase',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\dsbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.euibase',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\euibase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.mxbase',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\mxbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.nsbase',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\nsbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.svcbbase',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\svcbbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.tlsabase',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\tlsabase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.txtbase',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\txtbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.util',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rdtypes\\util.py',
+   'PYMODULE'),
+  ('dns.renderer',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\renderer.py',
+   'PYMODULE'),
+  ('dns.resolver',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\resolver.py',
+   'PYMODULE'),
+  ('dns.reversename',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\reversename.py',
+   'PYMODULE'),
+  ('dns.rrset',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\rrset.py',
+   'PYMODULE'),
+  ('dns.serial',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\serial.py',
+   'PYMODULE'),
+  ('dns.set',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\set.py',
+   'PYMODULE'),
+  ('dns.tokenizer',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\tokenizer.py',
+   'PYMODULE'),
+  ('dns.transaction',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\transaction.py',
+   'PYMODULE'),
+  ('dns.tsig',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\tsig.py',
+   'PYMODULE'),
+  ('dns.ttl',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\ttl.py',
+   'PYMODULE'),
+  ('dns.update',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\update.py',
+   'PYMODULE'),
+  ('dns.version',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\version.py',
+   'PYMODULE'),
+  ('dns.win32util',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\win32util.py',
+   'PYMODULE'),
+  ('dns.wire',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\wire.py',
+   'PYMODULE'),
+  ('dns.xfr',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\xfr.py',
+   'PYMODULE'),
+  ('dns.zone',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\zone.py',
+   'PYMODULE'),
+  ('dns.zonefile',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\zonefile.py',
+   'PYMODULE'),
+  ('dns.zonetypes',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\dns\\zonetypes.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email_validator',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\email_validator\\__init__.py',
+   'PYMODULE'),
+  ('email_validator.deliverability',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\email_validator\\deliverability.py',
+   'PYMODULE'),
+  ('email_validator.exceptions',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\email_validator\\exceptions.py',
+   'PYMODULE'),
+  ('email_validator.rfc_constants',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\email_validator\\rfc_constants.py',
+   'PYMODULE'),
+  ('email_validator.syntax',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\email_validator\\syntax.py',
+   'PYMODULE'),
+  ('email_validator.types',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\email_validator\\types.py',
+   'PYMODULE'),
+  ('email_validator.validate_email',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\email_validator\\validate_email.py',
+   'PYMODULE'),
+  ('email_validator.version',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\email_validator\\version.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._functional',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_functional.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\__init__.py',
+   'PYMODULE'),
+  ('pathlib._abc',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_abc.py',
+   'PYMODULE'),
+  ('pathlib._local',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\_local.py',
+   'PYMODULE'),
+  ('patterns', '-', 'PYMODULE'),
+  ('patterns.observer',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\patterns\\observer\\__init__.py',
+   'PYMODULE'),
+  ('patterns.observer.observer',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\patterns\\observer\\observer.py',
+   'PYMODULE'),
+  ('patterns.observer.subject',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\patterns\\observer\\subject.py',
+   'PYMODULE'),
+  ('patterns.strategy',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\patterns\\strategy\\__init__.py',
+   'PYMODULE'),
+  ('patterns.strategy.management_fee_strategy',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\patterns\\strategy\\management_fee_strategy.py',
+   'PYMODULE'),
+  ('patterns.strategy.minimum_balance_strategy',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\patterns\\strategy\\minimum_balance_strategy.py',
+   'PYMODULE'),
+  ('patterns.strategy.overdraft_strategy',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\patterns\\strategy\\overdraft_strategy.py',
+   'PYMODULE'),
+  ('patterns.strategy.service_charge_strategy',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\patterns\\strategy\\service_charge_strategy.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\random.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('shiboken6',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\shiboken6\\__init__.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\signal.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\socket.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\string.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\typing.py',
+   'PYMODULE'),
+  ('ui_superclasses',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\ui_superclasses\\__init__.py',
+   'PYMODULE'),
+  ('ui_superclasses.details_window',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\ui_superclasses\\details_window.py',
+   'PYMODULE'),
+  ('ui_superclasses.lookup_window',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\ui_superclasses\\lookup_window.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('user_interface',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\user_interface\\__init__.py',
+   'PYMODULE'),
+  ('user_interface.account_details_window',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\user_interface\\account_details_window.py',
+   'PYMODULE'),
+  ('user_interface.client_lookup_window',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\user_interface\\client_lookup_window.py',
+   'PYMODULE'),
+  ('user_interface.manage_data',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\user_interface\\manage_data.py',
+   'PYMODULE'),
+  ('utility',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\utility\\__init__.py',
+   'PYMODULE'),
+  ('utility.file_utils',
+   'C:\\Users\\komal Aulakh\\OneDrive - Red River College '
+   'Polytech\\Documents\\Intermediate_Software_Development\\project\\isd_project\\utility\\file_utils.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\komal '
+   'Aulakh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipimport.py',
+   'PYMODULE')])
